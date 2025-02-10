@@ -14,7 +14,6 @@ let max = 0;
 for (let i = 0; i < num.length; i++) {
     if (num[i] > max) {
         max = num[i];
-
     }
 }
 console.log(max);
@@ -44,7 +43,6 @@ for (let i = 0; i < dupnum.length; i++) {
     if (!duplicate) {
         result[result.length] = dupnum[i]
     }
-
 }
 console.log(result)
 
@@ -81,13 +79,11 @@ for (let i = 0; i < sortnum.length; i++) {
             temp = sortnum[i]
             sortnum[i] = sortnum[j]
             sortnum[j] = temp
-
         }
     }
 }
 for (let i = 0; i < sortnum.length; i++) {
     console.log(sortnum[i])
-
 }
 
 
